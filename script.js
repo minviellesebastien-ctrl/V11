@@ -97,7 +97,7 @@ let revolutDetails = loadRevolutDetails();
 const LIVRET_A_DETAILS_KEY = "avenir-livret-a-details-v1";
 const DEFAULT_LIVRET_A_DETAILS = {
   interestRate: "1,7%",
-  interests: "Calcul annuel",
+  interests: "549,19€",
   ceiling: "22 950 €",
   about: "Une épargne sécurisée, disponible à tout moment et exonérée d’impôt."
 };
@@ -124,7 +124,7 @@ let livretADetails = loadLivretADetails();
 const LDD_DETAILS_KEY = "avenir-ldd-details-v1";
 const DEFAULT_LDD_DETAILS = {
   interestRate: "1,7%",
-  interests: "Calcul annuel",
+  interests: "269,64€",
   ceiling: "12 000 €",
   about: "Une épargne sécurisée et disponible, complémentaire au Livret A."
 };
