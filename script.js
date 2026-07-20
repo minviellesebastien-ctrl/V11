@@ -46,9 +46,9 @@ const closeMsciNoteButton =
 const MSCI_NOTE_KEY = "avenir-msci-note";
 const MSCI_DETAILS_KEY = "avenir-msci-details-v1";
 const DEFAULT_MSCI_DETAILS = {
-  openingDate: "À renseigner",
-  insurer: "Linxea",
-  support: "Amundi MSCI World",
+  openingDate: "02/02/26",
+  insurer: "Linxea - Suravenir",
+  support: "Amundi MSCI World Swap II UCITS ETF Dist FR0010315770",
   about: "Un support diversifié investi dans de grandes entreprises des pays développés.",
   arbitrages: "À renseigner"
 };
@@ -96,7 +96,7 @@ let revolutDetails = loadRevolutDetails();
 
 const LIVRET_A_DETAILS_KEY = "avenir-livret-a-details-v1";
 const DEFAULT_LIVRET_A_DETAILS = {
-  interestRate: "À renseigner",
+  interestRate: "1,7%",
   interests: "Calcul annuel",
   ceiling: "22 950 €",
   about: "Une épargne sécurisée, disponible à tout moment et exonérée d’impôt."
@@ -123,7 +123,7 @@ let livretADetails = loadLivretADetails();
 
 const LDD_DETAILS_KEY = "avenir-ldd-details-v1";
 const DEFAULT_LDD_DETAILS = {
-  interestRate: "À renseigner",
+  interestRate: "1,7%",
   interests: "Calcul annuel",
   ceiling: "12 000 €",
   about: "Une épargne sécurisée et disponible, complémentaire au Livret A."
@@ -150,10 +150,10 @@ let lddDetails = loadLddDetails();
 
 const FONDS_EURO_DETAILS_KEY = "avenir-fonds-euro-details-v1";
 const DEFAULT_FONDS_EURO_DETAILS = {
-  openingDate: "À renseigner",
-  insurer: "Suravenir",
+  openingDate: "02/02/26",
+  insurer: "Linxea - Suravenir",
   support: "Fonds euro",
-  about: "Un support sécurisé de l’assurance vie, destiné à préserver le capital tout en générant des intérêts."
+  about: "Un support sécurisé de l’assurance vie, destiné à préserver le capital tout en générant des intérêts. Mensualités 200/mois."
 };
 
 function loadFondsEuroDetails() {
@@ -178,10 +178,10 @@ let fondsEuroDetails = loadFondsEuroDetails();
 
 const PER_DETAILS_KEY = "avenir-per-details-v1";
 const DEFAULT_PER_DETAILS = {
-  openingDate: "À renseigner",
-  insurer: "Suravenir",
-  accountType: "PER individuel",
-  about: "Une épargne dédiée à la retraite, actuellement orientée vers la sécurité du fonds euro."
+  openingDate: "02/02/26",
+  insurer: "Linxea - Suravenir",
+  accountType: "PER individuel (Périn)",
+  about: "Une épargne à long terme dédiée à la retraite, actuellement orientée vers la sécurité du fonds euro."
 };
 
 function loadPerDetails() {
